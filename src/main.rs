@@ -3,7 +3,7 @@ use pyo3::prelude::*;
 fn main() -> PyResult<()> {
     Python::with_gil(|py| {
         // Import your Python module
-        let vllm = PyModule::import(py, "my_vllm")?;
+        let vllm = PyModule::import(py, "vllm_helper")?;
 
         // Call the Python function
         let infer_func = vllm.getattr("infer")?;
