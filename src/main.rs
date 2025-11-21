@@ -4,7 +4,7 @@ fn main() -> PyResult<()> {
     Python::with_gil(|py| {
         // Add current directory to Python path
         let sys = py.import_bound("sys")?;
-        let path: &PyList = sys.getattr("path")?.downcast()?;
+        let path: Bound<PyList> = sys.getattr("path")?.downcast()?;
         path.insert(0, std::env::current_dir()?.to_str().unwrap())?;
 
         // Import your Python module
