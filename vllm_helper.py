@@ -1,7 +1,7 @@
 from vllm import LLM, SamplingParams
 
 # Load model once (fast for repeated calls)
-llm = LLM("mistral-7b-instruct-v0.1")
+llm = LLM("AMead10/Llama-3.2-3B-Instruct-AWQ")
 params = SamplingParams(temperature=0.7, max_tokens=64)
 
 def infer(prompt: str) -> str:
