@@ -2,8 +2,13 @@ use pyo3::prelude::*;
 
 fn main() -> PyResult<()> {
     Python::with_gil(|py| {
+        // Add current directory to Python path
+        let sys = py.import_bound("sys")?;
+        let path: &PyList = sys.getattr("path")?.downcast()?;
+        path.insert(0, std::env::current_dir()?.to_str().unwrap())?;
+
         // Import your Python module
-        let vllm = PyModule::import(py, "vllm_helper")?;
+        let vllm = py.import_bound("vllm_helper")?;
 
         // Call the Python function
         let infer_func = vllm.getattr("infer")?;
