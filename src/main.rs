@@ -30,7 +30,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     Python::with_gil(|py| -> PyResult<()> {
         // Add project root to sys.path
         let sys = py.import_bound("sys")?;
-        let path: Bound<PyList> = sys.getattr("path")?.downcast()?;
+        let path = sys.getattr("path")?.downcast::<PyList>()?;
         path.insert(0, ".")?; // insert current project root
 
         // Import your Python module
