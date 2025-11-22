@@ -18,7 +18,7 @@ struct Results {
     total_prompts: usize,
 }
 
-fn main() -> PyResult<()> {
+fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Read test_prompts.json
     let json_content = fs::read_to_string("test_prompts.json")?;
     let json: serde_json::Value = serde_json::from_str(&json_content)?;
@@ -27,14 +27,14 @@ fn main() -> PyResult<()> {
     let mut all_results = Vec::new();
     let mut times = Vec::new();
 
-    Python::with_gil(|py| {
+    Python::with_gil(|py| -> PyResult<()> {
         // Add project root to sys.path
-        let sys = py.import("sys")?;
-        let path: &PyList = sys.getattr("path")?.downcast()?;
+        let sys = py.import_bound("sys")?;
+        let path: Bound<PyList> = sys.getattr("path")?.downcast()?;
         path.insert(0, ".")?; // insert current project root
 
         // Import your Python module
-        let vllm = PyModule::import(py, "vllm_helper")?;
+        let vllm = py.import_bound("vllm_helper")?;
         let infer_func = vllm.getattr("infer")?;
 
         // Iterate through prompts
@@ -60,7 +60,7 @@ fn main() -> PyResult<()> {
         }
 
         Ok(())
-    })?;
+    }).map_err(|e| Box::new(e) as Box<dyn std::error::Error>)?;
 
     // Calculate mean time
     let mean_time = times.iter().sum::<f64>() / times.len() as f64;
