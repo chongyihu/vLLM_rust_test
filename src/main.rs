@@ -87,6 +87,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             }
         }
 
+        // Cleanup: shutdown vLLM engine to release GPU memory
+        let cleanup_func = vllm.getattr("cleanup")?;
+        cleanup_func.call0()?;
+
         Ok(())
     }).map_err(|e| Box::new(e) as Box<dyn std::error::Error>)?;
 

@@ -15,3 +15,22 @@ def infer(prompt: str) -> dict:
         "tokens_processed": tokens_processed,
         "tokens_generated": tokens_generated
     }
+
+def cleanup():
+    """Clean up the vLLM engine and release GPU memory."""
+    global llm
+    if llm is not None:
+        try:
+            # Shutdown the LLM engine to release GPU memory
+            if hasattr(llm, 'llm_engine') and llm.llm_engine is not None:
+                llm.llm_engine.shutdown()
+            # Also try to delete the model to free memory
+            del llm
+            llm = None
+            # Force garbage collection
+            import gc
+            gc.collect()
+        except Exception as e:
+            print(f"Error during cleanup: {e}")
+        finally:
+            llm = None
