@@ -1,9 +1,7 @@
 import os
 from vllm import LLM, SamplingParams
-
-os.environ["VLLM_NO_PROGRESS_BAR"] = "1"
 # Load model once (fast for repeated calls)
-llm = LLM("microsoft/phi-4")
+llm = LLM(model = "microsoft/phi-4", tensor_parallel_size=1)
 params = SamplingParams(temperature=0.0, max_tokens=2000)
 
 def infer(prompt: str) -> dict:
