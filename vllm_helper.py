@@ -4,7 +4,7 @@ from vllm import LLM, SamplingParams
 os.environ["VLLM_NO_PROGRESS_BAR"] = "1"
 # Load model once (fast for repeated calls)
 llm = LLM("AMead10/Llama-3.2-3B-Instruct-AWQ")
-params = SamplingParams(temperature=0.0, max_tokens=64)
+params = SamplingParams(temperature=0.0, max_tokens=8192)
 
 def infer(prompt: str) -> dict:
     """Perform a single vLLM inference and return text, tokens_processed, and tokens_generated."""
