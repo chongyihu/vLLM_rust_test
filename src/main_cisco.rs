@@ -63,7 +63,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             let prompt_content = fs::read_to_string(&file_path)?;
             
             // Format as "user: {prompt}\nassistant: "
-            let formatted_prompt = format!("user: {}\nassistant: ", prompt_content.trim());
+            let formatted_prompt = prompt_content;
             
             // Time the inference
             let start = Instant::now();
