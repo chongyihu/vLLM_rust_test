@@ -2,7 +2,7 @@ import os
 from vllm import LLM, SamplingParams
 # Load model once (fast for repeated calls)
 llm = LLM(model = "microsoft/phi-4", tensor_parallel_size=1)
-params = SamplingParams(temperature=0.0, max_tokens=2000)
+params = SamplingParams(temperature=0.8, top_p=0.95, max_tokens=2000)
 
 def infer(prompt: str) -> dict:
     """Perform a single vLLM inference and return text, tokens_processed, and tokens_generated."""
