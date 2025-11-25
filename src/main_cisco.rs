@@ -68,11 +68,18 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             
             // Extract values from Python dictionary
             let dict = result_dict.downcast::<PyDict>()?;
-            let _response: String = dict.get_item("text")?.unwrap().extract()?;
+            let response: String = dict.get_item("text")?.unwrap().extract()?;
             let tokens_processed: usize = dict.get_item("tokens_processed")?.unwrap().extract()?;
             let tokens_generated: usize = dict.get_item("tokens_generated")?.unwrap().extract()?;
             
             let processing_time = elapsed.as_millis() as f64;
+            
+            // Print the model output
+            println!("\n=== {} ===", filename);
+            println!("Processing time: {:.2}ms", processing_time);
+            println!("Tokens processed: {}, Tokens generated: {}", tokens_processed, tokens_generated);
+            println!("Model output:\n{}", response);
+            println!("{}\n", "=".repeat(80));
             
             all_results.push(CiscoResult {
                 filename: filename.clone(),
@@ -80,8 +87,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 tokens_processed,
                 tokens_generated,
             });
-            
-            println!("Processed: {} ({}ms)", filename, processing_time);
         }
 
         // Cleanup: shutdown vLLM engine to release GPU memory
