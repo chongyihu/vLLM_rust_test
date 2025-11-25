@@ -23,7 +23,7 @@ def cleanup():
         try:
             # Shutdown the LLM engine to release GPU memory
             if hasattr(llm, 'llm_engine') and llm.llm_engine is not None:
-                llm.llm_engine.shutdown()
+                llm.shutdown()
             # Also try to delete the model to free memory
             del llm
             llm = None
