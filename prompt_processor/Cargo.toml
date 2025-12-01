@@ -1,0 +1,9 @@
+[package]
+name = "prompt_processor"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "prompt_processor"
+path = "src/main.rs"
+

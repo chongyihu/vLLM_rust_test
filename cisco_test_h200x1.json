@@ -1,0 +1,598 @@
+{
+    "results": [
+      {
+        "filename": "cisco-sa-20090325-scp-iosxe_021_prompt.txt",
+        "processing_time": 18622.0,
+        "tokens_processed": 1863,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20090923-ipsec-iosxe_026_prompt.txt",
+        "processing_time": 1064.0,
+        "tokens_processed": 8385,
+        "tokens_generated": 72
+      },
+      {
+        "filename": "cisco-sa-20120328-msdp-iosxe_038_prompt.txt",
+        "processing_time": 15376.0,
+        "tokens_processed": 3606,
+        "tokens_generated": 1631
+      },
+      {
+        "filename": "cisco-sa-20120328-pai-iosxe_020_prompt.txt",
+        "processing_time": 2678.0,
+        "tokens_processed": 2189,
+        "tokens_generated": 282
+      },
+      {
+        "filename": "cisco-sa-20140924-dhcpv6-iosxe_057_prompt.txt",
+        "processing_time": 15296.0,
+        "tokens_processed": 6275,
+        "tokens_generated": 1579
+      },
+      {
+        "filename": "cisco-sa-20150325-ani-iosxe_016_prompt.txt",
+        "processing_time": 265.0,
+        "tokens_processed": 4821,
+        "tokens_generated": 6
+      },
+      {
+        "filename": "cisco-sa-20150923-fhs-iosxe_069_prompt.txt",
+        "processing_time": 19053.0,
+        "tokens_processed": 6241,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20150923-iosxe-iosxe_070_prompt.txt",
+        "processing_time": 18745.0,
+        "tokens_processed": 4962,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20150923-sshpk-iosxe_017_prompt.txt",
+        "processing_time": 19017.0,
+        "tokens_processed": 6558,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20160323-ios-ikev2-iosxe_072_prompt.txt",
+        "processing_time": 18774.0,
+        "tokens_processed": 5112,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20160928-dns-iosxe_078_prompt.txt",
+        "processing_time": 4913.0,
+        "tokens_processed": 4860,
+        "tokens_generated": 510
+      },
+      {
+        "filename": "cisco-sa-20160928-frag-iosxe_080_prompt.txt",
+        "processing_time": 18830.0,
+        "tokens_processed": 5378,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20160928-h323-iosxe_081_prompt.txt",
+        "processing_time": 18783.0,
+        "tokens_processed": 5304,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20160928-msdp-iosxe_084_prompt.txt",
+        "processing_time": 18838.0,
+        "tokens_processed": 5542,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20170322-l2tp-iosxe_089_prompt.txt",
+        "processing_time": 2672.0,
+        "tokens_processed": 5719,
+        "tokens_generated": 261
+      },
+      {
+        "filename": "cisco-sa-20170322-xeci-iosxe_091_prompt.txt",
+        "processing_time": 2994.0,
+        "tokens_processed": 4860,
+        "tokens_generated": 303
+      },
+      {
+        "filename": "cisco-sa-20170322-ztp-iosxe_092_prompt.txt",
+        "processing_time": 18757.0,
+        "tokens_processed": 5138,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20170927-ios-xe-iosxe_099_prompt.txt",
+        "processing_time": 18555.0,
+        "tokens_processed": 3788,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20170927-lisp-iosxe_100_prompt.txt",
+        "processing_time": 18723.0,
+        "tokens_processed": 4719,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20180328-bfd-iosxe_103_prompt.txt",
+        "processing_time": 18997.0,
+        "tokens_processed": 6388,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20180328-fwip-iosxe_107_prompt.txt",
+        "processing_time": 18703.0,
+        "tokens_processed": 4717,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20180328-igmp-iosxe_108_prompt.txt",
+        "processing_time": 4175.0,
+        "tokens_processed": 6775,
+        "tokens_generated": 415
+      },
+      {
+        "filename": "cisco-sa-20180328-opendns-dos-iosxe_113_prompt.txt",
+        "processing_time": 18891.0,
+        "tokens_processed": 5764,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20180328-xepriv-iosxe_118_prompt.txt",
+        "processing_time": 18765.0,
+        "tokens_processed": 5141,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20180606-aaa-iosxe_011_prompt.txt",
+        "processing_time": 18770.0,
+        "tokens_processed": 5180,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20180926-ospfv3-dos-iosxe_126_prompt.txt",
+        "processing_time": 2509.0,
+        "tokens_processed": 5637,
+        "tokens_generated": 244
+      },
+      {
+        "filename": "cisco-sa-20190327-eta-dos-iosxe_133_prompt.txt",
+        "processing_time": 18878.0,
+        "tokens_processed": 5988,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20190327-evss-iosxe_134_prompt.txt",
+        "processing_time": 18954.0,
+        "tokens_processed": 6472,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20190327-iosxe-privesc-iosxe_138_prompt.txt",
+        "processing_time": 1677.0,
+        "tokens_processed": 5778,
+        "tokens_generated": 153
+      },
+      {
+        "filename": "cisco-sa-20190327-isdn-iosxe_140_prompt.txt",
+        "processing_time": 300.0,
+        "tokens_processed": 5595,
+        "tokens_generated": 6
+      },
+      {
+        "filename": "cisco-sa-20190327-nbar-iosxe_141_prompt.txt",
+        "processing_time": 18876.0,
+        "tokens_processed": 5902,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20190327-xeid-iosxe_146_prompt.txt",
+        "processing_time": 18832.0,
+        "tokens_processed": 5596,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-20190513-webui-iosxe_148_prompt.txt",
+        "processing_time": 6653.0,
+        "tokens_processed": 5363,
+        "tokens_generated": 695
+      },
+      {
+        "filename": "cisco-sa-20190925-rawtcp-dos-iosxe_154_prompt.txt",
+        "processing_time": 3318.0,
+        "tokens_processed": 4877,
+        "tokens_generated": 338
+      },
+      {
+        "filename": "cisco-sa-20200108-ios-csrf-iosxe_158_prompt.txt",
+        "processing_time": 3426.0,
+        "tokens_processed": 4650,
+        "tokens_generated": 351
+      },
+      {
+        "filename": "cisco-sa-COPS-VLD-MpbTvGEW-iosxe_159_prompt.txt",
+        "processing_time": 1025.0,
+        "tokens_processed": 6319,
+        "tokens_generated": 80
+      },
+      {
+        "filename": "cisco-sa-XE-ACE-75K3bRWe-iosxe_162_prompt.txt",
+        "processing_time": 17696.0,
+        "tokens_processed": 5989,
+        "tokens_generated": 1873
+      },
+      {
+        "filename": "cisco-sa-XE-SAP-OPLbze68-iosxe_163_prompt.txt",
+        "processing_time": 4567.0,
+        "tokens_processed": 4609,
+        "tokens_generated": 476
+      },
+      {
+        "filename": "cisco-sa-aaa-Yx47ZT8Q-iosxe_004_prompt.txt",
+        "processing_time": 18566.0,
+        "tokens_processed": 4016,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-airo-wpa-pktleak-dos-uSTyGrL-iosxe_165_prompt.txt",
+        "processing_time": 18914.0,
+        "tokens_processed": 6114,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-aironet-dos-VHr2zG9y-iosxe_166_prompt.txt",
+        "processing_time": 18942.0,
+        "tokens_processed": 6257,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-aironet-mdns-dos-E6KwYuMx-iosxe_168_prompt.txt",
+        "processing_time": 18692.0,
+        "tokens_processed": 4704,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-alg-dos-KU9Z8kFX-iosxe_169_prompt.txt",
+        "processing_time": 18716.0,
+        "tokens_processed": 4916,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-ap-assoc-dos-D2SunWK2-iosxe_171_prompt.txt",
+        "processing_time": 3634.0,
+        "tokens_processed": 6434,
+        "tokens_generated": 359
+      },
+      {
+        "filename": "cisco-sa-ap-ip-flood-dos-6hxxENVQ-iosxe_175_prompt.txt",
+        "processing_time": 3439.0,
+        "tokens_processed": 4216,
+        "tokens_generated": 356
+      },
+      {
+        "filename": "cisco-sa-ap-secureboot-bypass-zT5vJkSD-iosxe_177_prompt.txt",
+        "processing_time": 18884.0,
+        "tokens_processed": 6005,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-appnav-xe-dos-j5MXTR4-iosxe_178_prompt.txt",
+        "processing_time": 3260.0,
+        "tokens_processed": 4649,
+        "tokens_generated": 333
+      },
+      {
+        "filename": "cisco-sa-c9800-fnf-dos-bOL5vLge-iosxe_183_prompt.txt",
+        "processing_time": 18634.0,
+        "tokens_processed": 4383,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-c9800-snmp-trap-dos-mjent3Ey-iosxe_185_prompt.txt",
+        "processing_time": 308.0,
+        "tokens_processed": 6025,
+        "tokens_generated": 4
+      },
+      {
+        "filename": "cisco-sa-capwap-dos-ShFzXf-iosxe_187_prompt.txt",
+        "processing_time": 18619.0,
+        "tokens_processed": 4335,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-cisco-ap-LLjsGxv-iosxe_193_prompt.txt",
+        "processing_time": 18628.0,
+        "tokens_processed": 4393,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-dclass-dos-VKh9D8k3-iosxe_197_prompt.txt",
+        "processing_time": 18655.0,
+        "tokens_processed": 4513,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-ewlc-capwap-dos-gmNjdKOY-iosxe_202_prompt.txt",
+        "processing_time": 18584.0,
+        "tokens_processed": 4052,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-ewlc-dos-wFujBHKw-iosxe_204_prompt.txt",
+        "processing_time": 18731.0,
+        "tokens_processed": 4945,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-ewlc-priv-esc-ybvHKO5-iosxe_207_prompt.txt",
+        "processing_time": 2802.0,
+        "tokens_processed": 6292,
+        "tokens_generated": 271
+      },
+      {
+        "filename": "cisco-sa-http-dos-svOdkdBS-iosxe_210_prompt.txt",
+        "processing_time": 3412.0,
+        "tokens_processed": 4591,
+        "tokens_generated": 350
+      },
+      {
+        "filename": "cisco-sa-httpsrvr-dos-yOZThut-iosxe_212_prompt.txt",
+        "processing_time": 2842.0,
+        "tokens_processed": 4542,
+        "tokens_generated": 288
+      },
+      {
+        "filename": "cisco-sa-ikev1-NO2ccFWz-iosxe_213_prompt.txt",
+        "processing_time": 18765.0,
+        "tokens_processed": 5154,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-ios-profinet-dos-65qYG3W5-iosxe_219_prompt.txt",
+        "processing_time": 244.0,
+        "tokens_processed": 5212,
+        "tokens_generated": 2
+      },
+      {
+        "filename": "cisco-sa-ios-webui-priv-esc-K8zvEWM-iosxe_220_prompt.txt",
+        "processing_time": 354.0,
+        "tokens_processed": 6331,
+        "tokens_generated": 6
+      },
+      {
+        "filename": "cisco-sa-ios-xe-sda-edge-dos-qZWuWXWG-iosxe_228_prompt.txt",
+        "processing_time": 18665.0,
+        "tokens_processed": 4583,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-ios-xe-sdwan-VQAhEjYw-iosxe_229_prompt.txt",
+        "processing_time": 19001.0,
+        "tokens_processed": 6681,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-iosxe-6vpe-dos-tJBtf5Zv-iosxe_230_prompt.txt",
+        "processing_time": 720.0,
+        "tokens_processed": 5087,
+        "tokens_generated": 54
+      },
+      {
+        "filename": "cisco-sa-iosxe-buffover-CqdRWLc-iosxe_231_prompt.txt",
+        "processing_time": 18936.0,
+        "tokens_processed": 6290,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-iosxe-cip-dos-9rTbKLt9-iosxe_232_prompt.txt",
+        "processing_time": 13280.0,
+        "tokens_processed": 4749,
+        "tokens_generated": 1418
+      },
+      {
+        "filename": "cisco-sa-iosxe-cswsh-FKk9AzT5-iosxe_233_prompt.txt",
+        "processing_time": 8639.0,
+        "tokens_processed": 4585,
+        "tokens_generated": 918
+      },
+      {
+        "filename": "cisco-sa-iosxe-decnet-dos-cuPWDkyL-iosxe_234_prompt.txt",
+        "processing_time": 18646.0,
+        "tokens_processed": 4541,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-iosxe-dhcpsn-dos-xBn8Mtks-iosxe_236_prompt.txt",
+        "processing_time": 4449.0,
+        "tokens_processed": 6278,
+        "tokens_generated": 449
+      },
+      {
+        "filename": "cisco-sa-iosxe-ewc-dos-g6JruHRT-iosxe_238_prompt.txt",
+        "processing_time": 182.0,
+        "tokens_processed": 3939,
+        "tokens_generated": 2
+      },
+      {
+        "filename": "cisco-sa-iosxe-ewlc-dos-TkuPVmZN-iosxe_239_prompt.txt",
+        "processing_time": 3061.0,
+        "tokens_processed": 5430,
+        "tokens_generated": 305
+      },
+      {
+        "filename": "cisco-sa-iosxe-isdn-q931-dos-67eUZBTf-iosxe_243_prompt.txt",
+        "processing_time": 18624.0,
+        "tokens_processed": 4335,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-iosxe-mpls-dos-Ab4OUL3-iosxe_244_prompt.txt",
+        "processing_time": 5568.0,
+        "tokens_processed": 4443,
+        "tokens_generated": 586
+      },
+      {
+        "filename": "cisco-sa-iosxe-ospf-dos-dR9Sfrxp-iosxe_245_prompt.txt",
+        "processing_time": 18627.0,
+        "tokens_processed": 4451,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-iosxe-romvar-cmd-inj-N56fYbrw-iosxe_247_prompt.txt",
+        "processing_time": 18632.0,
+        "tokens_processed": 4376,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-iosxe-umbrella-dos-t2QMUX37-iosxe_251_prompt.txt",
+        "processing_time": 3050.0,
+        "tokens_processed": 4726,
+        "tokens_generated": 309
+      },
+      {
+        "filename": "cisco-sa-iox-priv-escalate-Xg8zkyPk-iosxe_255_prompt.txt",
+        "processing_time": 9625.0,
+        "tokens_processed": 4848,
+        "tokens_generated": 1022
+      },
+      {
+        "filename": "cisco-sa-ioxPE-KgGvCAf9-iosxe_007_prompt.txt",
+        "processing_time": 2088.0,
+        "tokens_processed": 4516,
+        "tokens_generated": 206
+      },
+      {
+        "filename": "cisco-sa-ipsla-jw2DJmSv-iosxe_256_prompt.txt",
+        "processing_time": 18664.0,
+        "tokens_processed": 4581,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-ipv4-vfr-dos-CXxtFacb-iosxe_257_prompt.txt",
+        "processing_time": 278.0,
+        "tokens_processed": 5132,
+        "tokens_generated": 6
+      },
+      {
+        "filename": "cisco-sa-mdns-dos-3tH6cA9J-iosxe_261_prompt.txt",
+        "processing_time": 18693.0,
+        "tokens_processed": 4726,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-pim-APbVfySJ-iosxe_268_prompt.txt",
+        "processing_time": 18645.0,
+        "tokens_processed": 4406,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-quewedge-69BsHUBW-iosxe_270_prompt.txt",
+        "processing_time": 18717.0,
+        "tokens_processed": 4942,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-sd-wan-cred-EVGSF259-iosxe_275_prompt.txt",
+        "processing_time": 18435.0,
+        "tokens_processed": 3182,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-snmp-dos-USxSyTk5-iosxe_280_prompt.txt",
+        "processing_time": 2691.0,
+        "tokens_processed": 5320,
+        "tokens_generated": 266
+      },
+      {
+        "filename": "cisco-sa-splitdns-SPWqpdGW-iosxe_283_prompt.txt",
+        "processing_time": 18657.0,
+        "tokens_processed": 4501,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-ssh-excpt-dos-FzOBQTnk-iosxe_285_prompt.txt",
+        "processing_time": 18707.0,
+        "tokens_processed": 4796,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-web-cmdinj3-44st5CcA-iosxe_290_prompt.txt",
+        "processing_time": 18783.0,
+        "tokens_processed": 5308,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-web-cmdinj4-S2TmH7GA-iosxe_291_prompt.txt",
+        "processing_time": 8563.0,
+        "tokens_processed": 6931,
+        "tokens_generated": 884
+      },
+      {
+        "filename": "cisco-sa-webui-auth-bypass-6j2BYUc7-iosxe_293_prompt.txt",
+        "processing_time": 18688.0,
+        "tokens_processed": 4757,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-webui-cmdij-FzZAeXAy-iosxe_294_prompt.txt",
+        "processing_time": 18729.0,
+        "tokens_processed": 5017,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-webui-cmdinj-gVn3OKNC-iosxe_295_prompt.txt",
+        "processing_time": 277.0,
+        "tokens_processed": 5088,
+        "tokens_generated": 6
+      },
+      {
+        "filename": "cisco-sa-webui-cmdinj-zM283Zdw-iosxe_296_prompt.txt",
+        "processing_time": 18773.0,
+        "tokens_processed": 5265,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-webui-csrf-ycUYxkKO-iosxe_297_prompt.txt",
+        "processing_time": 3789.0,
+        "tokens_processed": 6364,
+        "tokens_generated": 377
+      },
+      {
+        "filename": "cisco-sa-wlc-dhcp-dos-76pCjPxK-iosxe_298_prompt.txt",
+        "processing_time": 2534.0,
+        "tokens_processed": 4728,
+        "tokens_generated": 253
+      },
+      {
+        "filename": "cisco-sa-wlc-file-uplpd-rHZG9UfC-iosxe_299_prompt.txt",
+        "processing_time": 18976.0,
+        "tokens_processed": 6345,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-wlc-mdns-dos-4hv6pBGf-iosxe_300_prompt.txt",
+        "processing_time": 18629.0,
+        "tokens_processed": 4429,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-wlc-wncd-p6Gvt6HL-iosxe_302_prompt.txt",
+        "processing_time": 325.0,
+        "tokens_processed": 6006,
+        "tokens_generated": 6
+      },
+      {
+        "filename": "cisco-sa-wpa-dos-cXshjerc-iosxe_303_prompt.txt",
+        "processing_time": 18727.0,
+        "tokens_processed": 4951,
+        "tokens_generated": 2000
+      },
+      {
+        "filename": "cisco-sa-xbace-OnCEbyS-iosxe_304_prompt.txt",
+        "processing_time": 18673.0,
+        "tokens_processed": 4601,
+        "tokens_generated": 2000
+      }
+    ]
+  }
