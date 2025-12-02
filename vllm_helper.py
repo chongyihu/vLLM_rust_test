@@ -19,7 +19,7 @@ logger.info("Initializing vLLM with prefix caching enabled...")
 
 from vllm import LLM, SamplingParams
 # Load model once (fast for repeated calls)
-llm = LLM("microsoft/phi-4", tensor_parallel_size=1, enable_prefix_caching=True)
+llm = LLM("microsoft/phi-4", tensor_parallel_size=2, enable_prefix_caching=True)
 logger.info("vLLM model loaded successfully")
 
 # Debug: Print engine structure to find cache stats
