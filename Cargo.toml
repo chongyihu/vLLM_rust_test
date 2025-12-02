@@ -5,11 +5,11 @@ edition = "2021"
 
 [[bin]]
 name = "prompts"
-path = "src/main.rs"
+path = "src/bin/main.rs"
 
 [[bin]]
 name = "cisco"
-path = "src/main_cisco.rs"
+path = "src/bin/main_cisco.rs"
 
 [dependencies]
 pyo3 = { version = "0.21", features = ["auto-initialize"] }
