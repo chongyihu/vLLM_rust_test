@@ -1,6 +1,6 @@
 from vllm import LLM, SamplingParams
 # Load model once (fast for repeated calls)
-llm = LLM("microsoft/phi-4", tensor_parallel_size=1)
+llm = LLM("microsoft/phi-4", tensor_parallel_size=1,enable_prefix_caching=True)
 params = SamplingParams(temperature=0.8, max_tokens=2000)
 
 def infer(prompt: str) -> dict:
