@@ -25,7 +25,9 @@ struct Results {
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Set environment variable to disable vLLM progress bar
-    env::set_var("VLLM_NO_PROGRESS_BAR", "1");
+    unsafe {
+        env::set_var("VLLM_NO_PROGRESS_BAR", "1");
+    }
     
     let prompts_quantity: usize = env::args()
         .nth(1)
