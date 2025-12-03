@@ -1,0 +1,64 @@
+{
+    "results": [
+      {
+        "filename": "cisco-sa-20090325-scp-iosxe_021_prompt01.txt",
+        "processing_time": 7788.0,
+        "tokens_processed": 1850,
+        "tokens_generated": 772
+      },
+      {
+        "filename": "cisco-sa-20090325-scp-iosxe_021_prompt02.txt",
+        "processing_time": 6036.0,
+        "tokens_processed": 1847,
+        "tokens_generated": 604
+      },
+      {
+        "filename": "cisco-sa-20090325-scp-iosxe_021_prompt03.txt",
+        "processing_time": 7843.0,
+        "tokens_processed": 1850,
+        "tokens_generated": 778
+      },
+      {
+        "filename": "cisco-sa-20090325-scp-iosxe_021_prompt04.txt",
+        "processing_time": 4157.0,
+        "tokens_processed": 1851,
+        "tokens_generated": 403
+      },
+      {
+        "filename": "cisco-sa-20090325-scp-iosxe_021_prompt05.txt",
+        "processing_time": 6573.0,
+        "tokens_processed": 1851,
+        "tokens_generated": 636
+      },
+      {
+        "filename": "cisco-sa-20090325-scp-iosxe_021_prompt06.txt",
+        "processing_time": 6834.0,
+        "tokens_processed": 1851,
+        "tokens_generated": 666
+      },
+      {
+        "filename": "cisco-sa-20090325-scp-iosxe_021_prompt07.txt",
+        "processing_time": 7624.0,
+        "tokens_processed": 1851,
+        "tokens_generated": 746
+      },
+      {
+        "filename": "cisco-sa-20090325-scp-iosxe_021_prompt08.txt",
+        "processing_time": 5386.0,
+        "tokens_processed": 1850,
+        "tokens_generated": 524
+      },
+      {
+        "filename": "cisco-sa-20090325-scp-iosxe_021_prompt09.txt",
+        "processing_time": 7537.0,
+        "tokens_processed": 1851,
+        "tokens_generated": 734
+      },
+      {
+        "filename": "cisco-sa-20090325-scp-iosxe_021_prompt10.txt",
+        "processing_time": 7174.0,
+        "tokens_processed": 1851,
+        "tokens_generated": 699
+      }
+    ]
+  }

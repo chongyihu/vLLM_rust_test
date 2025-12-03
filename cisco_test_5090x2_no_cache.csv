@@ -1,0 +1,11 @@
+filename,processing_time,tokens_processed,tokens_generated
+cisco-sa-20090325-scp-iosxe_021_prompt01.txt,10245.0,1852,625
+cisco-sa-20090325-scp-iosxe_021_prompt02.txt,13756.0,1849,893
+cisco-sa-20090325-scp-iosxe_021_prompt03.txt,11268.0,1852,707
+cisco-sa-20090325-scp-iosxe_021_prompt04.txt,8942.0,1854,549
+cisco-sa-20090325-scp-iosxe_021_prompt05.txt,9779.0,1854,594
+cisco-sa-20090325-scp-iosxe_021_prompt06.txt,6055.0,1854,335
+cisco-sa-20090325-scp-iosxe_021_prompt07.txt,11551.0,1855,722
+cisco-sa-20090325-scp-iosxe_021_prompt08.txt,10331.0,1854,644
+cisco-sa-20090325-scp-iosxe_021_prompt09.txt,9363.0,1855,565
+cisco-sa-20090325-scp-iosxe_021_prompt10.txt,9461.0,1856,574
