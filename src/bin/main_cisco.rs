@@ -62,14 +62,17 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         let infer_func = vllm.getattr("infer")?;
 
         // Process each file
+        count = 0;
         for filename in &files {
+            count += 1;
             let file_path = Path::new(prompt_files_dir).join(filename);
             
             // Read the prompt from file
             let prompt_content = fs::read_to_string(&file_path)?;
             
             // Format as "user: {prompt}\nassistant: "
-            let formatted_prompt = format!("{}\n{}", sys_prompt, prompt_content);
+            sys_prompt.insert(40, count.to_string());
+            let formatted_prompt = format!("{}\n{}",sys_prompt, prompt_content);
             
             // Time the inference
             let start = Instant::now();
