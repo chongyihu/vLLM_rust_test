@@ -62,7 +62,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         let infer_func = vllm.getattr("infer")?;
 
         // Process each file
-        count = 0;
+        let mut count = 0;
         for filename in &files {
             count += 1;
             let file_path = Path::new(prompt_files_dir).join(filename);
