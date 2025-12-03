@@ -36,14 +36,17 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         let path = entry.path();
         if path.is_file() && path.extension().and_then(|s| s.to_str()) == Some("txt") {
             if let Some(filename) = path.file_name().and_then(|n| n.to_str()) {
+                if filename.contains("cisco") {
                 files.push(filename.to_string());
+                }
             }
         }
     }
     
+    
     // Sort files for consistent processing order
     files.sort();
-    let sys_prompt = fs::read_to_string("prompt_021_processed/sys_prompt.txt")?;
+    let sys_prompt = fs::read_to_string(format!("{}/sys_prompt.txt", prompt_files_dir))?;
     let mut all_results = Vec::new();
 
 
