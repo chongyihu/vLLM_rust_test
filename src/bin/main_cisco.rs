@@ -46,7 +46,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     
     // Sort files for consistent processing order
     files.sort();
-    let sys_prompt = fs::read_to_string(format!("{}/sys_prompt.txt", prompt_files_dir))?;
+    let mut sys_prompt = fs::read_to_string(format!("{}/sys_prompt.txt", prompt_files_dir))?;
     let mut all_results = Vec::new();
 
 
