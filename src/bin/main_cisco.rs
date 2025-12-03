@@ -71,7 +71,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             let prompt_content = fs::read_to_string(&file_path)?;
             
             // Format as "user: {prompt}\nassistant: "
-            sys_prompt.insert(40, count.to_string());
+            sys_prompt.insert_str(40, &count.to_string());
             let formatted_prompt = format!("{}\n{}",sys_prompt, prompt_content);
             
             // Time the inference
